@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import ReactDom from "react-dom";
 import { NavLink} from "react-router-dom"
+
 const Header = () => {
     return (
         <div className="main">
@@ -14,8 +15,9 @@ const Header = () => {
                 </div>
             </div>
             <div id="main-img-container">
-                <div className="main-img"></div>
+                <img className="main-svg" src = "dual-monitors.svg" alt="code"/>
             </div>
+            
         </div>
     )
 }
