@@ -185,9 +185,6 @@ body {
   .thinker-svg {
       width: 50%;
   }
-  .display-none {
-      display: none;
-  }
   .truthy-card {
     /* background-image:
     linear-gradient(black, black),
@@ -234,7 +231,8 @@ body {
     top: 0; left: 0;
     width: 100%; height: 100%;
     background-size: cover;
-    filter: grayscale(100%) brightness(30%);
+    /* filter: grayscale(100%) brightness(30%); */
+    filter: brightness(30%) grayscale(50%);
     border-radius: 10px;
     transition: all 1s ease;
   }
@@ -251,11 +249,36 @@ body {
     background-image: url(fitness.jpg);
   }
   .strangers-card:hover::before, .connect-four-card:hover::before, .truthy-card:hover::before, .fitness-tracker-card:hover::before {
-      filter: brightness(50%) grayscale(50%);
-      width: 23rem;
-      height: 18rem;
-      transform: translate(-1.5rem, -1.5rem);
+      filter: brightness(20%) grayscale(100%);
+      /* width: 23rem;
+      height: 18rem; */
+      transform: scale(1.2);
 }
   .inside-card {
       position: relative;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 80%;
+      margin: 0 auto;
+      transition: all 1s ease;
+  }
+  .project-btn {
+      visibility: hidden;
+      width: 10em;
+      height: 2.5em;
+      background: transparent;
+      border: #F46036 solid 1px;
+      color: #F46036;
+      border-radius: 5px;
+      transition: all .5s ease;
+  }
+  .project-card:hover .project-btn, .project-card:hover .project-p {
+    visibility: visible;
+  }
+  .project-p {
+    visibility: hidden;
+    transition: all .5s ease;
   }
