@@ -5,7 +5,7 @@ import handleViewport from 'react-in-viewport';
 import { BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom"
 const App = () => {
     return (
-        <div>
+        <div id="app-container">
             <Router>
                 <Header/>
                 <div id="body">

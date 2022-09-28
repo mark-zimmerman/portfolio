@@ -11,6 +11,9 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+#app-container {
+  margin-bottom: 3em;
+}
 #body {
     display: flex;
     flex-direction: column;
@@ -55,7 +58,15 @@ body {
     color: #f8f8ff;
     text-decoration: none;
     font-weight: 300;
+    transition: .5s;
+    padding: .3em .5em;
+    border-radius: 3px;
 }
+.nav-link:hover {
+   background-color: rgba(244, 96, 54, 1);
+   color: #181818;
+}
+
 .banner {
     flex: 0 1 auto;
     min-height: 100vh;
@@ -249,7 +260,7 @@ body {
     background-image: url(fitness.jpg);
   }
   .strangers-card:hover::before, .connect-four-card:hover::before, .truthy-card:hover::before, .fitness-tracker-card:hover::before {
-      filter: brightness(20%) grayscale(100%);
+      filter: brightness(10%) grayscale(100%);
       /* width: 23rem;
       height: 18rem; */
       transform: scale(1.2);
@@ -262,6 +273,7 @@ body {
       flex-direction: column;
       height: 100%;
       width: 80%;
+      max-width: 20rem;
       margin: 0 auto;
       transition: all 1s ease;
   }
@@ -288,5 +300,10 @@ body {
   }
   .project-p {
     visibility: hidden;
-    transition: all .5s ease;
+    font-weight: 300;
+  }
+  .about-p {
+    line-height: 2em;
+    font-weight: 300;
+    font-size: 1.2em;
   }
