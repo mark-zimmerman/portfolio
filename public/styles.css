@@ -273,7 +273,15 @@ body {
       border: #F46036 solid 1px;
       color: #F46036;
       border-radius: 5px;
-      transition: all .5s ease;
+      /* transition: all .5s ease; */
+      background: linear-gradient(to right, #F46036 0%, #F46036 50%, transparent 50%, transparent 100%);
+      background-size: 200% 100%;
+      background-position: 100% 0;
+      transition: background-position 0.5s;
+  }
+  .project-btn:hover {
+    background-position:0 0;
+    color: #181818;
   }
   .project-card:hover .project-btn, .project-card:hover .project-p {
     visibility: visible;
