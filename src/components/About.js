@@ -1,7 +1,7 @@
 import React, {useState, useEffect, useRef} from "react";
 import ReactDom from "react-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  } from '@fortawesome/free-solid-svg-icons'
+// import {  } from '@fortawesome/free-solid-svg-icons'
 import { faReact, faNodeJs, faJs, faHtml5, faCss3, faGit, faGithub} from "@fortawesome/free-brands-svg-icons"
 
 const About = () => {
