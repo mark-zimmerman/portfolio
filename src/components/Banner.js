@@ -35,8 +35,8 @@ const Banner = () => {
                 <div className="project-card fitness-tracker-card">
                     <div className="inside-card"> 
                         <h3>Fitness Tracker</h3>
-                        <p className="project-p">This paragraph will quickly explain the project</p>
-                        <button class="project-btn">Open Project</button>
+                        <p className="project-p">Coming soon</p>
+                        {/* <button class="project-btn">Open Project</button> */}
                     </div>
                 </div>
             </div>

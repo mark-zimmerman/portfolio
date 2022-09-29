@@ -148,13 +148,17 @@ body {
     gap: 3em;
     overflow: none;
     min-height: 100vh;
+    background: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, 0.9),  rgba(24, 24, 24, 1)), url('cle2.jpg');
+      background-size: cover;
 }
 .main-img {
     height: 50%;
     background-color: #F46036; 
     overflow: none;
 }
-
+.main-info > .head-font {
+  font-family: 'Noto Serif Display', serif;
+}
 #main-info-container {
     display: flex;
     flex: 50%;
@@ -234,6 +238,9 @@ body {
       flex: 0 1 auto;
       justify-content: space-around;
       gap: 3em;
+      /* background-image: url(cle.jpg); */
+      /* background: linear-gradient( rgba(24, 24, 24, 1), rgba(24, 24, 24, 0.9),  rgba(24, 24, 24, 1)), url('cle2.jpg');
+      background-size: cover; */
   }
   .about h2, .about p {
     max-width: 50%;
