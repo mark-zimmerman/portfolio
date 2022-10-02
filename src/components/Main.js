@@ -10,7 +10,7 @@ const Header = () => {
                     <p className="small-main-text head-font">Hi, I am</p>
                     <p className="big-main-text">Mark Zimmerman</p>
                     <p className="small-main-text">I'm a</p>
-                    <p className="small-main-text">FullStack / Front End</p>
+                    <p className="small-main-text">Full-Stack / Front End</p>
                     <p className="medium-main-text">Software Developer</p>
                     <p className="small-main-text">from Cleveland, Ohio</p>
                 </div>

@@ -22,7 +22,7 @@ const About = () => {
             <div id="main-img-container">
                 <img className="thinker-svg" src = "code-thinker.svg" alt="code"/>
             </div>
-            <p ref={myRef} className="about-p">I am a constant learner that enjoys the creative process and the daily pursuit of improving my skills. My goal is to become an expert within the field of software developement. I am interested in joining a team of talented developers, who work together to deliver quality products. 
+            <p ref={myRef} className="about-p">I am a constant learner who enjoys the creative process and the daily pursuit of improving my skills. My goal is to become an expert within the field of software development. I am interested in joining a team of talented developers, who work together to deliver high quality products. 
             </p>
             <div class="skills-icons">    
                 <FontAwesomeIcon title="ReactJS" className={`skills-icon ${skillsVisible ? "skills-animation" : ''}`} icon={faReact} />
