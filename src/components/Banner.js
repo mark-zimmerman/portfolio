@@ -16,7 +16,7 @@ const Banner = () => {
                         <button class="project-btn">Open Project</button>
                     </div> 
                 </div>
-                <div className="project-card truthy-card" onClick={()=> openInNewTab('https://truthy-jerseyz-outlet.herokuapp.com/')}>
+                <div className="project-card truthy-card" onClick={()=> openInNewTab('https://jerseyzoutlet.onrender.com/')}>
                     <div className="inside-card">     
                         <h3>Truthy Jerseyz Outlet</h3>
                         <p className="project-p">Ecommerce web application selling NFL jerseys priced at their true value.</p>
